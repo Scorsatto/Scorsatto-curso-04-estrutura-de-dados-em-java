@@ -30,4 +30,25 @@ public class Pilha {
     public boolean isEmpty(){
         return referenciaNoEntradaPilha == null ? true : false;
     }
+
+    @Override
+    public String toString() {
+        String retorno = "-----------\n";
+        retorno += "   PILHA   \n";
+        retorno += "-----------\n";
+
+        No noAuxiliar =  referenciaNoEntradaPilha;
+
+        while (true){
+            if (noAuxiliar != null){
+                retorno += "[No{dado=" + noAuxiliar.getDado() + "}]\n";
+                noAuxiliar = noAuxiliar.getReferenciaNo();
+            } else {
+                break;
+            }
+        }
+        retorno += "===========\n";
+
+        return retorno;
+    }
 }
