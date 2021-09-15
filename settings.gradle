@@ -5,4 +5,5 @@ include 'filas-FIFO-first-in-first-out'
 include 'listas-encadeadas'
 include 'listas-duplamente-encadeadas'
 include 'listas-circulares'
+include 'arvore-binaria'
 
