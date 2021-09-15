@@ -4,4 +4,5 @@ include 'pilhas-LIFO-last-in-first-out'
 include 'filas-FIFO-first-in-first-out'
 include 'listas-encadeadas'
 include 'listas-duplamente-encadeadas'
+include 'listas-circulares'
 
